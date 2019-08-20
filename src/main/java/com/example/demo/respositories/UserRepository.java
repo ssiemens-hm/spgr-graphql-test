@@ -1,12 +1,13 @@
-package de.mymunch.code.repositories;
+package com.example.demo.respositories;
 
-import de.mymunch.code.entities.User;
-import java.util.List;
-import java.util.Optional;
+import com.example.demo.entities.User;
 import org.springframework.data.repository.CrudRepository;
 
-public interface UserRepository extends CrudRepository<User, Long> {
-  List<User> findAll();
+import java.util.List;
+import java.util.Optional;
 
-  Optional<User> findByEmail(String email);
+public interface UserRepository extends CrudRepository<User, Long> {
+    List<User> findAll();
+
+    Optional<User> findByEmail(String email);
 }

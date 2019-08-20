@@ -15,7 +15,7 @@ import javax.validation.constraints.Size;
 @EqualsAndHashCode
 @ToString
 @GraphQLType(name = "UserRegistration")
-public class UserRegistrationDto {
+public class UserRegistrationInputDto {
 
     @NotBlank(message = "Name is mandatory")
     private String firstName;

@@ -1,7 +1,6 @@
-package de.mymunch.code.dto;
+package com.example.demo.dto;
 
 import io.leangen.graphql.annotations.types.GraphQLType;
-import javax.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.EqualsAndHashCode;
@@ -9,6 +8,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
+
+import javax.validation.constraints.NotBlank;
 
 @Builder
 @Getter
